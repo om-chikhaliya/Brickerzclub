@@ -57,6 +57,11 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <div className="mt-6 justify-center text-center">
+        <h5 className="text-center text-xl text-neutral-700">
+          Copyright 2024, Oumarou Sanda Souley
+        </h5>
+      </div>
     </footer>
   );
 };
