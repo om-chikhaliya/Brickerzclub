@@ -1,29 +1,27 @@
-import videoHero2 from "../assets/videos/videoHero2.mp4";
-import videoHero1 from "../assets/videos/videoHero1.mp4";
+import videoHero2 from "../assets/videos/vid.mp4";
+import videoHero1 from "../assets/videos/vid2.mp4";
 const Hero = () => {
   return (
     <div className="flex flex-col items-center mt-6">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-        Build with Blockchain
+        Discover, Play,
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
           {" "}
-          Development Tools
+          Grow
         </span>
       </h1>
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-        Empower your creativity and bring your blockchain app ideas to life with
-        our intuitive development tools. Get started today and turn your vision
-        into a decentralized reality!
+      Rent or buy premium toys for your little ones. Unleash their imagination without the clutter.
       </p>
       <div className="flex justify-center my-10">
         <a
           href="#"
           className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
         >
-          Start for free
+          Get Started
         </a>
         <a href="#" className="py-2 px-3 border mx-3 rounded-md">
-          Documentation
+          Learn More
         </a>
       </div>
       <div className="flex justify-center mt-10">

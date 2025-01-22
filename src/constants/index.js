@@ -14,10 +14,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#Features" },
-  { label: "Workflow", href: "#Workflow" },
-  { label: "Pricing", href: "#Pricing" },
+  { label: "How it Works", href: "#Features" },
+  { label: "Features", href: "#Workflow" },
   { label: "Testimonials", href: "#Testimonials" },
+  { label: "Contact Us", href: "#Pricing" },
 ];
 
 export const testimonials = [
@@ -25,99 +25,81 @@ export const testimonials = [
     user: "Alice Williams",
     company: "Blockchain Enterprises",
     image: user1,
-    text: "The blockchain tools provided exceeded our expectations. The team's expertise enabled us to deploy secure smart contracts quickly and efficiently.",
+    text: "Brickerzclub has transformed playtime for my kids. The quality and variety of toys are amazing!",
   },
   {
     user: "Carlos Martinez",
     company: "Crypto Innovations",
     image: user2,
-    text: "Working with this team was a game-changer for our decentralized app. Their innovative solutions and deep understanding of blockchain technology were crucial to our success.",
+    text: "As a busy parent, Brickerzclub's rental service is a lifesaver. It's eco-friendly and budget-friendly!",
   },
   {
     user: "Sophia Lee",
     company: "Chain Solutions Inc.",
     image: user3,
-    text: "The team helped us navigate the complexities of blockchain development with ease. Their attention to security and scalability set us up for long-term success.",
+    text: "Brickerzclub makes toy shopping hassle-free—my kids are always excited to try something new every month!",
   },
   {
     user: "James Cooper",
     company: "DeFi Labs",
     image: user4,
-    text: "We partnered with the team to build our blockchain platform, and they delivered outstanding results. Their technical expertise and commitment to quality are unparalleled.",
+    text: "Thanks to Brickerzclub, we no longer deal with clutter—my kids play, return, and eagerly wait for their next delivery!",
   },
   {
     user: "Olivia Harris",
     company: "SmartChain Technologies",
     image: user5,
-    text: "I am thoroughly impressed by the blockchain solutions the team delivered. They made deploying our smart contracts straightforward and secure. I highly recommend them.",
+    text: "I love how Brickerzclub combines fun and sustainability, making playtime guilt-free and enjoyable.",
   },
   {
     user: "Ethan Clark",
     company: "Ledger Innovations",
     image: user6,
-    text: "From start to finish, the team was professional, knowledgeable, and dedicated. Thanks to their work, our blockchain project is now running smoothly and securely.",
+    text: "The flexibility of Brickerzclub's rental plans lets us enjoy premium toys without breaking the bank.",
   },
 ];
 
 export const features = [
   {
     icon: BotMessageSquare,
-    text: "Smart Contract Builder",
+    text: "Choose & Rent",
     description:
-      "Easily create and deploy smart contracts with a user-friendly interface designed for efficiency.",
-  },
-  {
-    icon: Fingerprint,
-    text: "Multi-Chain Compatibility",
-    description:
-      "Build blockchain applications that run seamlessly across multiple blockchain networks, including Ethereum and Binance Smart Chain.",
-  },
-  {
-    icon: ShieldHalf,
-    text: "Pre-Built Templates",
-    description:
-      "Kickstart your blockchain projects with a variety of pre-built templates for different use cases.",
+      "Browse our curated selection and rent the perfect toys for your child.",
   },
   {
     icon: BatteryCharging,
-    text: "Real-Time Testing",
+    text: "Play & Learn",
     description:
-      "Test your blockchain application in real-time as you develop, ensuring faster debugging and iterations.",
+      "Watch your child's imagination soar with educational and fun toys.",
   },
   {
     icon: PlugZap,
-    text: "Team Collaboration",
+    text: "Buy Favorites",
     description:
-      "Collaborate with your team in real-time on blockchain projects, enabling seamless communication and productivity.",
-  },
-  {
-    icon: GlobeLock,
-    text: "Integrated Analytics",
-    description:
-      "Track and analyze transactions, smart contract performance, and user interactions with an integrated analytics dashboard.",
+      "Love a toy? Purchase it at a special discounted price just for you!",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Seamless Code Integration",
+    title: "Easy Accessable",
     description:
-      "Effortlessly integrate and manage smart contracts with automated version control and conflict resolution.",
+      "Our user-friendly interface makes it simple for you to browse, select, and rent toys with just a few clicks. Find the perfect toy anytime, anywhere.",
   },
   {
-    title: "Smart Contract Auditing",
+    title: "More Affordable Cost",
     description:
-      "Securely audit and review blockchain code for vulnerabilities, ensuring reliability before deployment.",
+      "Enjoy quality toys at a fraction of the price. Renting allows you to save money while providing endless fun for your kids.",
   },
   {
-    title: "AI-Driven Optimization",
+    title: "Diverse Toy Collection",
     description:
-      "Utilize AI to optimize blockchain performance, enhancing scalability and reducing gas fees.",
+      "Choose from a wide range of toys catering to all age groups and preferences. From educational toys to the latest trending gadgets, we’ve got it all.",
   },
   {
-    title: "Instant Code Deployment",
+    title: "Eco-Friendly Option",
     description:
-      "Deploy your smart contracts to the blockchain in minutes, with real-time collaboration and feedback.",
+      "Renting toys reduces waste and promotes sustainability. Help the planet by reusing toys instead of buying new ones every time.Deploy your smart contracts to the blockchain in minutes, with real-time collaboration and feedback.",
   },
 ];
 
@@ -171,9 +153,9 @@ export const platformLinks = [
 ];
 
 export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#Features", text: "How it Works" },
+  { href: "#Workflow", text: "Features" },
+  { href: "#Testimonials", text: "Testimonials" },
+  { href: "#Pricing", text: "Contact Us" },
+  // { href: "#", text: "Register" },
 ];
